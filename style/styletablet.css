@@ -1,0 +1,331 @@
+@media only screen and (max-width: 900px) and (min-width: 551px) {
+    html,body{
+        width: 100%;
+        height: 100%;
+        background-color: 212832;
+    }
+    *{
+        margin: 0;
+        padding: 0%;
+        box-sizing: border-box;}
+    .tablet{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+    .desk{
+        display: none;
+    }
+    .nav{
+        background-color: #2c3e50;
+        width: 100vw;
+        position: fixed;
+        z-index: 999;
+        height: 5rem;
+        padding: 1rem;
+    }
+    .nav a{
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    .cont-li{
+        list-style: none;
+        color: white;
+    }
+    .nr{
+        font-size: 1.3rem;
+        margin-left: 0%;
+        padding-left: 1.8rem;
+    }
+    .put-btm{
+        width: 100%;
+    }
+   .ul-asl{
+       list-style: none;
+       background-color: #2c3e50
+   }
+   .i-men{
+       width: 5rem;
+       height: 2.5rem;
+   }
+    .butm-ul{
+        background-color: #1abc9c;
+        color: white;
+        border-radius: 9px;
+        width: 5rem;
+        height: 2.5rem;
+        border: none;
+        font-size: 0.8rem;
+        text-align: center;
+        position: relative;
+        }
+    .ul-but{
+        list-style: none;
+        margin-left: 0%;
+        position: absolute;
+        padding: 3rem;
+        left: 0%;
+        background-color: #2c3e50;
+        width: 100vw;
+        height: 13rem;
+        transition:opacity 0.2s ease;
+        opacity: 0;
+        margin-top: 0%;
+    }
+    ul.ul-asl li:hover ul.ul-but{
+        opacity: 1;
+    }
+    .ul-but li{
+        margin-bottom: 2rem;}
+    .nl :hover{
+        color: #1abc9c;
+        transition: 0.25s;
+    }
+    .hed{
+        background-color: #1abc9c;
+        color: white;
+        height: 50rem;
+    }
+    .avat{
+        width: 15rem;
+        height: 15rem;
+        margin-bottom: 3rem;
+    }
+    .avah{
+        font-size: 4rem;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+    .lincust-st{
+        width: 7rem;
+        height: 0.3rem;
+        background-color: white;
+        margin-bottom: 2rem;
+    }
+    div .icon{
+        margin-bottom: 2rem;
+    }
+    .fs{
+        font-size: 1.4rem;
+    }
+    .sec{
+        width: 100%;
+        height: auto;
+    }
+    .h2{
+        color: #2b3944;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-top: 4rem;
+    }
+    .cont-port{
+        width: 100%;
+        height: auto;
+        gap: 1rem;
+    }
+    .lincust{
+        width: 7rem;
+        height: 0.3rem;
+        background-color: #2b3944;
+        margin-bottom: 2rem;
+    } 
+    .pic
+    {
+        width: 296px;
+        height: 213px;
+        border-radius: 7px;
+    }
+    .sec-itm .cont-pic{
+        cursor: pointer;
+      position: relative;
+      display: block;
+      max-width: 25rem;
+      border-radius: 0.5rem;
+      overflow: hidden;
+    }
+    .porlo-itm{
+        position: absolute;
+        top: 0;
+        left: 0%;
+        background-color: #1abc9cda;
+        transition: all 0.2s ease;
+        width: 296px;
+        height: 213px;
+        border-radius: 7px;
+        z-index: 1;
+        opacity: 0;
+    }
+    .sec-itm .cont-pic .porlo-itm:hover{
+        opacity: 1;
+    }
+    .icon-hov{
+        font-size: 1.2rem;
+    }
+    .indiv{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 40rem;
+        row-gap: 2rem;
+        column-gap: 1rem;
+    }
+    .bi-plus-lg{
+        font-size: 3rem !important;
+    }
+    div .ic{
+        color: #2b3944;
+        margin-bottom: 2rem;
+    }
+    .bi,
+    .fas{
+        color: white;
+    }
+    .conp{
+        margin-bottom: 2rem;
+    }
+    .about{
+        background-color: #1abc9c;
+        color: white;
+        margin-top: 6rem;
+        height: 40rem;
+        gap: 1rem;
+    }
+    .h2a{
+        color: white;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .conpar{
+        width: auto;
+        height: auto;
+        font-size: 1.3rem;
+        font-weight: 400;
+        gap: 0;
+        margin: 0 1rem;
+    }
+    .text-center {
+        text-align: center !important;
+      }
+    .btn-xl {
+        padding: 1rem 1.75rem;
+        font-size: 1.25rem;
+      }
+      .btn-outline-light {
+        color: #f8f9fa;
+        border-color: #f8f9fa;
+      }
+      .btn-outline-light:hover {
+        color: #000;
+        background-color: #f8f9fa;
+        border-color: #f8f9fa;
+      }  
+      .frmin{
+        width: 35rem;
+        height: auto;
+        margin: 0 ;
+    }
+    .inp-form{
+        width: 100%;
+        height: 2rem;
+        color: #6c757d;
+        border: none;
+        border-bottom: 1px solid #6c757d4f;
+        font-size: 1.5rem;
+        margin-bottom: 4rem;
+        padding: 3rem 0 3rem;
+    }
+    .inp-form:focus{
+        outline: none;
+    }
+    .aria{
+        color: #6c757d;
+        border-bottom: 1px solid #6c757d4f;
+        font-size: 1.5rem;
+        gap: 3rem;
+        margin-bottom: 1rem;
+    }
+    .texaria{
+        border: none;
+        border-bottom: 1px solid #6c757d4f;
+    }
+    .texaria:focus{
+        outline: none;
+    }
+    .send{
+        background-color: #1abc9c;
+        width: 6rem;
+        height: 3.5rem;
+        text-align: center;
+        font-size: 1.2rem;
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5rem;
+        border: none;
+    }
+    .contar-footer{
+        width: 100%;
+        height: 100%;
+    }
+    .contup{
+        background-color: #2c3e50;
+        color: white;
+        width: 100%;
+        height: 39rem;
+        gap: 4rem;
+    }
+    .h4{
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .confoot{
+        width: auto;
+        height: 142px;
+        text-align: center;
+        margin: 0 1rem;
+    }
+    .p-foot{
+        font-size: 1.3rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    .confoot a{
+        color: white;
+        text-align: center;
+    }
+    .confoot .boot-foot{
+        color: #1abc9c;
+    }
+    .confoot .boot-foot:hover{
+        color: #15967d;;
+        transition: 0.4s ease;
+    }
+    .a-i{
+        width: 3rem;
+        height: 3rem;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 50%;
+        text-align: center;
+        text-decoration: none;
+    }
+    .a-ig{
+        gap: 0.5rem;
+    }
+    .a-i:hover{
+        color: black;
+        background-color: white;
+    }
+    .contdwn{
+        width: 100%;
+        background-color: #1a252f;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+    }
+}
